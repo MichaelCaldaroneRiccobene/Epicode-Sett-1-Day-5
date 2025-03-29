@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+body 
+{
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#SideBar 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Icon
+{
+    padding: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Icon p 
+{
+    margin: 0;
+    font-size: 1.1em;
+}
+
+
+.Icon ion-icon 
+{
+    font-size: 1.8em;
+    cursor: pointer;
+}
+
+#Main 
+{
+    width: 100%;
+}
+
+#TopBar
+{
+    height: 6vh;
+    display: flex;
+    padding: 1.2em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#YTLogo
+{
+    height: 60%;
+    cursor: pointer;
+}
+
+#Search
+{
+    height: 50%;
+    display: flex;
+    
+}
+
+.serchIcon ion-icon
+{
+    font-size: 2em;
+    padding: 0 1.2 em;
+    cursor: pointer;
+}
+
+#LeftIcon
+{
+    display: flex;
+    height: 50%;
+    cursor: pointer;
+}
+
+#LeftIcon ion-icon 
+{
+    font-size: 2em;
+    padding: 0 0.35em;
+}
+
+#content 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.DivForIcon
+{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+
+.imgthumb
+{
+    height: 75%;
+    cursor: pointer;
+}
+
+.imglogo 
+{
+    height: 60%;
+    cursor: pointer;
+}
+
+.TitolDescri
+{
+    padding: 0 1em;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#title
+{
+    margin: 0;
+    padding-top: 1em;
+    font-size: 1.8em;
+}
+
+#Description
+{
+    margin: 0%;
+    padding-bottom: 2em;
+}
+
