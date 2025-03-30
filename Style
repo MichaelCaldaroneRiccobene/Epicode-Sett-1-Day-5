@@ -67,6 +67,18 @@ body
     
 }
 
+#Search input
+{
+    width: 450px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#buttone
+{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
 .serchIcon ion-icon
 {
     font-size: 2em;
